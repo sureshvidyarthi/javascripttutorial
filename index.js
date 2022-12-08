@@ -243,7 +243,7 @@
 // console.log(city3);
 
 //Array in js
-let city = [`Patna`, `Sitamarhi`, `Bhagalpur`];
+// let city = [`Patna`, `Sitamarhi`, `Bhagalpur`];
 // console.log(city);
 // console.log(city[0]);
 // console.log(city.length)
@@ -251,9 +251,82 @@ let city = [`Patna`, `Sitamarhi`, `Bhagalpur`];
 // city[0] = `Delhi`;
 // console.log(city);
 // console.log(typeof (city))
-let city1 = city.toString();
-console.log(city1)
-console.log(typeof (city1))
+// let city1 = city.toString();
+// console.log(city1)
+// console.log(typeof (city1))
+// console.log(city.join("-"))
+
+// let number = [1, 2, 5, 4, 9];
+// let number1 = number.pop();
+// let number2 = number.push(10);
+// console.log(number)
+
+// let a1 = [10, 12, 13];
+// let a2 = [5, 8, 9];
+// let a3 = [4, 6, 7];
+// let a = a1.concat(a2, a3);
+// console.log(a);
+// console.log(a.sort())
+
+//ex-home work
+// const number = [40, 100, 1, 5, 25, 10];
+// number.sort(
+//     function (a, b) {
+//         return a - b
+//     }
+// );
+
+//Date in javascript
+
+// const date = new Date("2022-12-08");
+// // console.log(date)
+// // console.log(date.getDate())
+// // console.log(date.getDay())
+
+// document.getElementById("demo").innerHTML = date;
+
+// Break statement and continue statement
+// let a = 1;
+
+// for (var i = 0; i < 10; i++) {
+//     if (i == 5) {
+//         continue;
+//     }
+//     console.log(a + i);
+// }
+
+// document.getElementById("main").innerHTML = "Hello World!";
+// document.getElementById("main").style.backgroundColor = "white";
+// document.getElementById("main").style.color = "purple";
+// document.getElementById("demo").innerHTML = "Welcome to our college";
+// document.getElementById("demo").style.color = "white";
+
+// DOM Object, create elements, add elements
+
+let ChhathPuja = document.createElement("ul");
+document.body.appendChild(unorderedList);
+
+let listItem1 = document.createElement("li");
+listItem1.textContent = "Nariyal";
+unorderedList.appendChild(listItem1);
+
+let listItem2 = document.createElement("li");
+listItem2.textContent = "Pan ka patta";
+unorderedList.appendChild(listItem2);
+
+let listItem3 = document.createElement("li");
+listItem3.textContent = "Kela";
+unorderedList.appendChild(listItem3);
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,8 +1,19 @@
 body {
     background-color: purple;
+    margin: 0;
 }
 
 h1 {
     color: white;
     text-align: center;
 }
+
+/* #demo {
+    background-color: white;
+    color: purple;
+    font-size: 35px;
+    margin: 30px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+} */
