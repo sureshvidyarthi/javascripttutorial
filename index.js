@@ -309,8 +309,45 @@
 // create a new text node and add it to the div
 // let text = document.createTextNode('CreateElement example');
 // div.appendChild(text);
-
 // document.body.appendChild(div);
+// document.getElementById("main").innerHTML = '<h1>Saharsa</h1>';
+
+// const main = document.getElementById("main");
+// console.log(main)
+// let div = document.createElement('div');
+// div.id = "demo";
+// div.className = "class1";
+// div.innerHTML = '<h1>Login page</h1>';
+// let text = document.createTextNode('Histoty of Patna')
+// div.appendChild(text);
+// document.body.appendChild(div);
+
+
+// let query = document.querySelector("#main1");
+// console.log(query)
+
+// let parent = document.querySelector('#main1');
+// console.log(parent.parentNode);
+
+// sibling in dom
+
+// let current = document.querySelector('#main2');
+// let nextSibling = current.nextElementSibling;
+// console.log(nextSibling);
+
+// let current = document.querySelector('#main');
+// let parent = current.parentElement;
+// console.log(parent);
+
+function validateForm() {
+    let x = document.forms["myForm"]["fname", "email"].value;
+    if (x == "") {
+        alert("Name and Email must be filled out");
+        return false;
+    }
+}
+
+// Event in javascript
 
 
 
