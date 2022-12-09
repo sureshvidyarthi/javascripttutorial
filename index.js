@@ -302,21 +302,16 @@
 // document.getElementById("demo").style.color = "white";
 
 // DOM Object, create elements, add elements
+//create element
+// let div = document.createElement('div');
+// div.innerHTML = '<p>CreateElement example</p>';
 
-let ChhathPuja = document.createElement("ul");
-document.body.appendChild(unorderedList);
+// create a new text node and add it to the div
+// let text = document.createTextNode('CreateElement example');
+// div.appendChild(text);
 
-let listItem1 = document.createElement("li");
-listItem1.textContent = "Nariyal";
-unorderedList.appendChild(listItem1);
+// document.body.appendChild(div);
 
-let listItem2 = document.createElement("li");
-listItem2.textContent = "Pan ka patta";
-unorderedList.appendChild(listItem2);
-
-let listItem3 = document.createElement("li");
-listItem3.textContent = "Kela";
-unorderedList.appendChild(listItem3);
 
 
 
