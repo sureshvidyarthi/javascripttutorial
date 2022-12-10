@@ -3,3 +3,5 @@ function myFunction() {
     document.getElementById("main").innerHTML = date;
     document.getElementById("btn").style.display = "none";
 }
+
+document.getElementById("main1").innerHTML = Math.random();
