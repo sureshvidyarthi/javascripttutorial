@@ -17,3 +17,34 @@ h1 {
     padding: 10px;
     font-weight: bolder;
 } */
+
+
+/* 
+h1,
+h2 {
+    color: white;
+    text-align: center;
+}
+
+button {
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: purple;
+    border: none;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover {
+    bbody {
+    background-color: purple;
+    margin: 0;
+    text-align: center;
+}ackground-color: yellow;
+    color: orangered;
+} */

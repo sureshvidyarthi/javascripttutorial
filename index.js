@@ -339,16 +339,51 @@
 // let parent = current.parentElement;
 // console.log(parent);
 
-function validateForm() {
-    let x = document.forms["myForm"]["fname", "email"].value;
-    if (x == "") {
-        alert("Name and Email must be filled out");
-        return false;
-    }
+// function validateForm() {
+//     let x = document.forms["myForm"]["fname", "email"].value;
+//     if (x == "") {
+//         alert("Name and Email must be filled out");
+//         return false;
+//     }
+// }
+
+// BOm in javascript
+
+// let bom1 = window.innerHeight;
+// let bom2 = window.innerWidth;
+// console.log(bom1);
+// console.log(bom2);
+
+// window.open() - open a new window
+// window.close() - close the current window
+// window.moveTo() - move the current window
+// window.resizeTo() - resize the current window
+
+// window.open();
+// window.close();
+
+// window.moveTo();
+// window.resizeTo(200, 500);
+// window.history.back();
+
+// window.alert("Hii, how are you?") popup box
+// window.confirm("Are you okay?");  confirm box
+
+// function myFunction() {
+//     var txt;
+//     if (confirm("Are you sure?")) {
+//         txt = "Your form has been submitted";
+//     } else {
+//         txt = "Your form hasn't been submitted";
+//     }
+//     document.getElementById("demo").innerHTML = txt;
+// }
+
+//setTimeOut funtion and setTimeInterval function
+
+function myFunction() {
+    alert("Hii, how are you?")
 }
-
-// Event in javascript
-
 
 
 
