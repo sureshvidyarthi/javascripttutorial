@@ -381,9 +381,73 @@
 
 //setTimeOut funtion and setTimeInterval function
 
-function myFunction() {
-    alert("Hii, how are you?")
+// function myFunction() {
+//     alert("Hii, how are you?")
+// }
+
+// Arrow function
+// myFunction = () => {
+//     alert("Hello World")
+// }
+
+// myFunction = (a, b) => {
+//     console.log("Sum of two number is:", a + b);
+// }
+// myFunction(4, 5);
+
+// Object in js
+
+// var ninth = {
+//     name: `Ram`,
+//     roll: 101,
+//     branch: `CSE`,
+//     session: 2022,
+//     sectiona: {
+//         name: `Mohan`,
+//         roll: 102,
+//         branch: `ECE`,
+//         session: 2023,
+//     }
+// }
+// let x;
+// for (let x in ninth) {
+//     console.log(x, ":", ninth[x]);
+// }
+// console.log(ninth.sectiona)
+// console.log(students.name);
+// console.log(students.roll);
+// console.log(students.branch);
+// console.log(students.session);
+
+//Callback
+// function myFirst() {
+//     console.log("Hello");
+// }
+
+// function mySecond() {
+//     console.log("Bye");
+// }
+// mySecond();
+// myFirst();
+// mySecond();
+
+
+function myDisplayer(result) {
+    return result;
 }
+
+function myCalculator(num1, num2, myDisplayer) {
+    let sum = num1 + num2;
+    return sum;
+}
+let result = myCalculator(10, 20, myDisplayer)
+console.log(result)
+
+// let result = myCalculator(10, 15);
+// myDisplayer(result);
+
+
+
 
 
 
