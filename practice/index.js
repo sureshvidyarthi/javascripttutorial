@@ -432,19 +432,90 @@
 // mySecond();
 
 
-function myDisplayer(result) {
-    return result;
-}
+// function myDisplayer(result) {
+//     return result;
+// }
 
-function myCalculator(num1, num2, myDisplayer) {
-    let sum = num1 + num2;
-    return sum;
-}
-let result = myCalculator(10, 20, myDisplayer)
-console.log(result)
+// function myCalculator(num1, num2, myDisplayer) {
+//     let sum = num1 * num2;
+//     return sum;
+// }
+// let result = myCalculator(10, 20, myDisplayer)
+// console.log(result)
 
 // let result = myCalculator(10, 15);
 // myDisplayer(result);
+
+
+// let time = setTimeout(myFunction, 3000);
+// function myFunction() {
+//     alert("Hello World!");
+// }
+
+// setTimeout(myFunction, 3000);
+
+// function myFunction() {
+//     document.getElementById("main").innerHTML = "Hii, How are you";
+//     document.getElementById("main").style.color = "purple";
+// }
+
+// setInterval(myFunction, 1000);
+
+// function myFunction() {
+//     let d = new Date();
+//     document.getElementById("main").innerHTML =
+//         d.getHours() + ":" +
+//         d.getMinutes() + ":" +
+//         d.getSeconds();
+//     document.getElementById("main").style.backgroundColor = "purple";
+//     document.getElementById("main").style.color = "white";
+//     document.getElementById("main").style.textAlign = "center";
+// }
+
+// Promises
+// const number = 5;
+// let promise = new Promise(function (resolve, reject) {
+//     if (number < 4) {
+//         resolve("There is a count value.");
+//     } else {
+//         reject("There is no count value");
+//     }
+// });
+
+// console.log(promise);
+
+let p1 = new Promise((resolve, reject) => {
+    // console.log("Promise is pending")
+    setTimeout(() => {
+        console.log("I am a promise and I am resolved")
+        resolve(true)
+    }, 5000)
+})
+let p2 = new Promise((resolve, reject) => {
+    // console.log("Promise is pending");
+    setTimeout(() => {
+        console.log("I am promises and I am rejected")
+        reject(false)
+    }, 2000)
+})
+p1.then((value) => {
+    console.log(value)
+})
+// p2.then((value) => {
+//     console.log(value)
+// })
+
+// To catch the errors
+p2.catch((error) => {
+    console.log("some error occurred in p2")
+})
+// p2.then((value) => {
+//     console.log(value)
+// }, (error) => {
+//     console.log(error)
+// })
+
+
 
 
 

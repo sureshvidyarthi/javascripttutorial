@@ -41,8 +41,8 @@
 
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <input id="city" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit" id="submit">Search</button>
                 </form>
             </div>
         </div>
@@ -54,7 +54,7 @@
 
 
             <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-                <h1 class="display-4 fw-normal">Pricing</h1>
+                <h1 class="display-4 fw-normal">Weather for <span id="cityName"></span></h1>
                 <p class="fs-5 text-muted">Quickly build an effective pricing table for your potential customers with
                     this Bootstrap example. It’s built with default Bootstrap components and utilities with little
                     customization.</p>
@@ -126,9 +126,16 @@
                     <thead>
                         <tr>
                             <th style="width: 34%;"></th>
-                            <th style="width: 22%;">Free</th>
-                            <th style="width: 22%;">Pro</th>
-                            <th style="width: 22%;">Enterprise</th>
+                            <th style="width: 22%;">cloud_pct</th>
+                            <th style="width: 22%;">feels_like</th>
+                            <th style="width: 22%;">humidity</th>
+                            <th style="width: 22%;">max_temp</th>
+                            <th style="width: 22%;">min_temp</th>
+                            <th style="width: 22%;">sunrise</th>
+                            <th style="width: 22%;">sunset</th>
+                            <th style="width: 22%;">temp</th>
+                            <th style="width: 22%;">wind_degrees</th>
+                            <th style="width: 22%;">wind_speed</th>
                         </tr>
                     </thead>
                     <tbody>
